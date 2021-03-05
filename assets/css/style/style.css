@@ -253,3 +253,45 @@ height:400px;
 width:1165px;
 margin-left:25px;
 }
+#contact .d1{
+margin-top:200px;
+font-size:20px;
+font-family: "Poppins",sans-serif;
+margin-left:450px;
+width:50%;
+line-height:1.5em;
+}
+#contact .d1 span{
+color:orange;
+}
+#contact .d1 p{
+display:inline;
+color:grey;
+margin:15px;
+}
+#contact .d2{
+margin-top:120px;
+margin-left:450px;
+width:45%;
+
+}
+#contact  h3{
+font-size:30px;
+text-shadow:2px right black;
+}
+#contact .d2 span .t1{
+height:40px;
+background:linear-gradient(#F7E7CE,#ECE5B6);
+}
+#contact .d2 span .t2{
+background:linear-gradient(#F7E7CE,#ECE5B6);
+border:2px solid black;
+}
+#contact .d2 span .t3{
+background:linear-gradient(#E66C2C,#FF7F50,#E67451);
+margin-left:90px;
+width:260px;
+height:30px;
+border-radius:15px;
+
+}
