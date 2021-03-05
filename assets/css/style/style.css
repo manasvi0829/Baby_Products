@@ -1,0 +1,255 @@
+body {
+  background-image:linear-gradient(to left,rgba(210,20,60,.5),lightblue,rgba(120,10,67,.5));
+  background-size:cover;
+  display:table;
+  width:100%;
+  background-repeat:no-repeat;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+  margin:0;
+  //padding:0;
+}
+.header {
+  background-color:#fa33079f;
+ //background-color:#0779e4;
+ 
+}
+nav {
+height:17px;
+width:89px;
+  display: inline;
+}
+nav img {
+    height: 50px;
+    width: 80px;
+    padding-bottom: 0px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius:15px;
+    background-color: white;
+}
+nav ul li  {
+  text-decoration: none;
+  list-style: none;
+  float:left;
+  position: relative;
+  left:200px;
+  bottom:72px;
+  padding:25px;
+ }
+ nav li a {
+ color:white;
+  text-decoration: none;
+ }
+  nav li a:hover {
+    transform: scale(1.2);
+    transition: .5s ease;
+    color:dodgerblue;
+  }
+ .search-link {
+   border:1px solid;
+  border-radius:5px;
+  padding:3px 15px 3px 15px;
+  background-color: white;
+  position: relative;
+  bottom:4px;
+  right:1px;
+  left:5px;
+  color:rgb(38, 0, 255);
+ }
+ .cart {
+   text-decoration: none;
+   list-style:none;
+    //background-color: white;
+    font-size:40px;
+    height:40em;
+    width:70px;
+    position: relative;
+    bottom:20px;
+    left :-15px;
+    color : blue;
+    //flex-wrap:wrap;
+ }
+ #products  h1{
+	text-align:center;
+	font-size:35px;
+	font-family:'Oi', cursive;
+	color:#1B1E56;
+	text-decoration:underline;
+	margin-top:12px;
+	position:relative;
+  }
+  #products .p1  h2{
+	font-size:17px;
+	font-family:'Oi', cursive;
+	color:#1B1E56;
+	width:450px;
+	margin-top:12px;
+	margin-left:100px;
+  }
+  .innerproducts .p1{
+  width:50%;
+  height:500px;
+  float:left;
+  margin-top:10px;
+  }
+  #products .p1 img{
+  width:40%;
+  height:200px;
+  border-radius:10px;
+  border:2px solid blue;
+  position:relative;
+  margin-left:140px;
+  }
+  .p1  h3{
+  font-size:17px;
+  font-family:'Oi', cursive;
+  color:#00000;
+  float:left-side;
+  margin-top:20px;
+  margin-left:130px;
+  }
+  
+  .p1 p{
+  font-size:17px;
+  font-family:'Oi', cursive;
+  color:#00000;
+  width:420px;
+  margin-left:120px;
+  }
+  .p1 ul li{
+  font-size:17px;
+  width:480px;
+  font-family:'Oi', cursive;
+  color:#00000;
+  float:left-side;
+  margin-left:110px;
+  }
+  .p2 h1{ 
+  display:block;
+  width:100%;
+  }
+  .p2 img{
+  width:19.5%;
+  height:200px;
+  border:1px solid blue;
+  }
+  .btn1{
+  padding: 10px 30px;
+  color: #000000;
+  font-size: 15px;
+  font-family:'Oi', cursive;
+  background-color:#6D7B8D ;
+  border: #000000;
+  border-radius: 20px;
+  transition: .3s ease;
+  transition-property: background-color, color, border;
+  margin-left:255px;
+}
+footer{
+  background:linear-gradient(to right, chocolate,pink);
+  width:100%;
+  height:auto;
+  float: left;
+  text-align: justify;
+  justify-content: center;
+  position: relative;
+
+}
+.foot {
+  float: left;
+  
+}
+.foot img {
+ margin:20px;
+height: 120px;
+width: 140px;
+position: relative;
+left:20px;
+
+}
+.foot p{
+  color:blanchedalmond;
+  height: 115px;
+  width:195px;
+  margin-left:30px;
+  position: relative;
+  bottom:20px;
+  font-weight:bolder;
+}
+.foot h3 {
+  padding:10px 10px 0 60px; 
+  font-size: 2em;
+  font-family: 'poppins';
+ 
+}
+.foot ul li {
+  list-style:none;
+  text-align:justify;
+  padding:10px 10px 0 30px;
+  font-size: 1.25em;
+  
+  
+}
+.foot ul li a{
+  text-decoration: none;
+  font-size: 1em;
+  color: rgb(241, 9, 55);
+}
+/*.mapouter{
+position:relative;
+text-align:justify;
+margin-top:-100px;
+height:500px;
+width:100%;
+}
+.gmap_canvas {
+overflow:hidden;
+background:none!important;
+height:500px;
+width:100%;
+}
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+	left:20px;
+	top:0;
+    height:0;
+	width:100%;
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    //height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}*/
+#contact {
+background:white;
+margin:0;
+}
+.mapouter{
+position:relative;
+text-align:right;
+height:400px;
+width:1165px;
+margin-left:25px;
+}
+.gmap_canvas {
+overflow:hidden;
+background:none!important;
+height:400px;
+width:1165px;
+margin-left:25px;
+}
