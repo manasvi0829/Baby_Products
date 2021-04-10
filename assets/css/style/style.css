@@ -4,16 +4,16 @@ body {
   display:table;
   width:100%;
   background-repeat:no-repeat;
-  margin: auto;
   font-family: 'Montserrat', sans-serif;
-  margin:0;
-  //padding:0;
+  margin:-1px;
+  padding:0;
 }
 .header {
   background-color:#fa33079f;
  //background-color:#0779e4;
  
 }
+
 nav {
 height:17px;
 width:89px;
@@ -146,6 +146,8 @@ nav ul li  {
   transition-property: background-color, color, border;
   margin-left:255px;
 }
+
+                                          /*FOOTER SECTION STYLING HERE*/
 footer{
   background:linear-gradient(to right, chocolate,pink);
   width:100%;
@@ -188,63 +190,27 @@ left:20px;
   text-align:justify;
   padding:10px 10px 0 30px;
   font-size: 1.25em;
-  
-  
 }
 .foot ul li a{
   text-decoration: none;
   font-size: 1em;
   color: rgb(241, 9, 55);
 }
-/*.mapouter{
-position:relative;
-text-align:justify;
-margin-top:-100px;
-height:500px;
-width:100%;
-}
-.gmap_canvas {
-overflow:hidden;
-background:none!important;
-height:500px;
-width:100%;
-}
-.map-responsive{
 
-    overflow:hidden;
-
-    padding-bottom:56.25%;
-
-    position:relative;
-	left:20px;
-	top:0;
-    height:0;
-	width:100%;
-}
-
-.map-responsive iframe{
-
-    left:0;
-
-    top:0;
-
-    //height:100%;
-
-    width:100%;
-
-    position:absolute;
-
-}*/
+												/*CONTACT PAGE STYLING HERE*/
 #contact {
-background:white;
+background:#ECE5B6;
 margin:0;
 }
+
 .mapouter{
 position:relative;
 text-align:right;
 height:400px;
 width:1165px;
-margin-left:25px;
+margin-left:45px;
+top:20px;
+
 }
 .gmap_canvas {
 overflow:hidden;
@@ -252,10 +218,11 @@ background:none!important;
 height:400px;
 width:1165px;
 margin-left:25px;
+top:20px;
 }
 #contact .d1{
-margin-top:200px;
-font-size:20px;
+margin-top:120px;
+font-size:23px;
 font-family: "Poppins",sans-serif;
 margin-left:450px;
 width:50%;
@@ -263,21 +230,26 @@ line-height:1.5em;
 }
 #contact .d1 span{
 color:orange;
+font-family: 'Arvo', serif;
+font-weight:800px;
 }
 #contact .d1 p{
 display:inline;
 color:grey;
 margin:15px;
+font-family: 'Arvo', serif;
 }
 #contact .d2{
 margin-top:120px;
 margin-left:450px;
 width:45%;
-
+font-family: 'Arvo', serif;
+font-size:25px;
 }
 #contact  h3{
 font-size:30px;
 text-shadow:2px right black;
+font-family: 'New Tegomin', serif;
 }
 #contact .d2 span .t1{
 height:40px;
@@ -285,7 +257,6 @@ background:linear-gradient(#F7E7CE,#ECE5B6);
 }
 #contact .d2 span .t2{
 background:linear-gradient(#F7E7CE,#ECE5B6);
-border:2px solid black;
 }
 #contact .d2 span .t3{
 background:linear-gradient(#E66C2C,#FF7F50,#E67451);
@@ -294,4 +265,42 @@ width:260px;
 height:30px;
 border-radius:15px;
 
+}
+@media(max-width: 767px){
+	.mapouter{
+    //position:relative;
+	right:20px;
+	//top:0;
+    height:500px;
+	width:50%;
+	}
+	#contact{
+		background:#ffdcb8;
+	}
+	#contact .d1 span{
+	margin-top:480px;
+	}
+	#contact .d2 span .t1{
+	height:50px;
+	margin:4px;
+	width:500px;
+	}
+}
+@media (min-width:768px) and (max-width:1023px){
+	.mapouter{
+		position:relative;
+		height:500px;
+		width:100%;
+		right:20px;
+
+	}
+}
+@media (min-width:1024px) and (max-width:1440px){
+	.mapouter{
+		position:relative;
+		height:700px;
+		width:100%;
+		right:20px;
+
+	}
 }
